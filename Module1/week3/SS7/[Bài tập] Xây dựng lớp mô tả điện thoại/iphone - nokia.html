@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>
+            Iphone
+        </legend>
+        <input type="button" value="Bật/tắt" id="IpTurnOnOff" onclick="TurnOnOFF(this)">
+        <input type="button" value="Soạn tin nhắn" id="SoanTinNhanIp" onclick="SoanTinNhan(this)">
+        <input type="button" value="Hộp thư gửi đến" id="HopThuGuiDenIp" onclick="HopThuGuiDen(this)">
+        <input type="button" value="Tin đã gửi" id="TinDaGuiIp" onclick="TinDaGui(this)">
+        <input type="button" value="Sạc pin điện thoại" id="SacPinIp" onclick="SacPin(this)">
+        <input type="button" value="Gửi cho nokia" id="GuiChoNokia" onclick="Gui(this)">
+        <div id="IpStatus">Tắt</div>
+        <div id="IpBattery">100 %</div>
+        <textarea cols="60" rows="5" id="resultIphone"></textarea>
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>
+            Nokia
+        </legend>
+        <input type="button" value="Bật/tắt" id="NokiaTurnOnOff" onclick="TurnOnOFF(this)">
+        <input type="button" value="Soạn tin nhắn" id="SoanTinNhanNokia" onclick="SoanTinNhan(this)">
+        <input type="button" value="Hộp thư gửi đến" id="HopThuGuiDenNokia" onclick="HopThuGuiDen(this)">
+        <input type="button" value="Tin đã gửi" id="TinDaGuiNokia" onclick="TinDaGui(this)">
+        <input type="button" value="Sạc pin điện thoại" id="SacPinNokia" onclick="SacPin(this)">
+        <input type="button" value="Gửi cho ip" id="GuiChoIp" onclick="Gui(this)">
+        <div id="NokiaStatus">Tắt</div>
+        <div id="NokiaBattery">100 %</div>
+        <textarea cols="60" rows="5" id="resultNoika"></textarea>
+    </fieldset>
+</form>
+<script>
+    var Mobile = function (battery, textToSend, textReceive, textSend) {
+        this.battery = battery;
+        this.textToSend = textToSend;
+        this.textReceive = textReceive;
+        this.textSend = textSend;
+        this.status = false;
+        this.setBattery = function (Battery) {
+            this.battery = Battery;
+        }
+        this.getBattery = function () {
+            return this.battery;
+        }
+        this.gettextToSend = function () {
+            return this.textToSend;
+        }
+        this.settextToSend = function (textToSend) {
+            this.textToSend = textToSend;
+        }
+        this.gettextReceive = function () {
+            return this.textReceive;
+        }
+        this.settextReceive = function (textReceive) {
+            this.textReceive = textReceive;
+        }
+        this.gettextSend = function () {
+            return this.textSend;
+        }
+        this.settextSend = function (textSend) {
+            this.textSend = textSend;
+        }
+        this.check = function () {
+            if (this.status && this.battery != 0) {
+                return true;
+            }
+            return false;
+        }
+        this.turnOn = function () {
+            this.status = true;
+        }
+        this.turnOff = function () {
+            this.status = false;
+        }
+        this.decrease = function () {
+            if (this.battery > 0) {
+                this.battery--;
+            }
+        }
+        this.increase = function () {
+            if (this.battery < 100) {
+                this.battery++;
+            }
+        }
+    }
+    var Iphone = new Mobile(100, '', [], []);
+    var Nokia = new Mobile(100, '', [], []);
+    function showBattery() {
+        document.getElementById('IpStatus').innerHTML = Iphone.status ? 'Bật' : 'Tắt';
+        document.getElementById('NokiaStatus').innerHTML = Nokia.status ? 'Bật' : 'Tắt';
+        document.getElementById('IpBattery').innerHTML = Iphone.battery + ' %';
+        document.getElementById('NokiaBattery').innerHTML = Nokia.battery + ' %';
+    }
+    function TurnOnOFF(obj) {
+        switch (obj.id) {
+            case 'IpTurnOnOff':
+                Iphone.check() ? Iphone.turnOff() : Iphone.turnOn();
+                break;
+            case 'NokiaTurnOnOff':
+                Nokia.check() ? Nokia.turnOff() : Nokia.turnOn();
+                break;
+        }
+        showBattery();
+    }
+    function SacPin(obj) {
+        switch (obj.id) {
+            case 'SacPinIp':
+                Iphone.increase();
+                break;
+            case 'SacPinNokia':
+                Nokia.increase();
+                break;
+        }
+        showBattery();
+    }
+    function SoanTinNhan(obj) {
+        switch (obj.id) {
+            case 'SoanTinNhanIp':
+                if (Iphone.check()) {
+                    document.getElementById('resultIphone').value= Iphone.gettextToSend();
+                    Iphone.decrease();
+                } else {
+                    alert('Mời bật điện thoại iphone')
+                }
+                break;
+            case 'SoanTinNhanNokia':
+                if (Nokia.check()) {
+                    document.getElementById('resultNoika').value=Nokia.gettextToSend();
+                    Nokia.decrease();
+                } else {
+                    alert('Mời bật điện thoại Nokia')
+                }
+                break;
+        }
+        showBattery();
+    }
+    function HopThuGuiDen(obj) {
+        switch (obj.id) {
+            case 'HopThuGuiDenIp':
+                if (Iphone.check()) {
+                    Iphone.settextToSend(document.getElementById('resultIphone').value);
+                    document.getElementById('resultIphone').value=Iphone.gettextReceive();
+                    Iphone.decrease();
+                } else {
+                    alert('Mời bật điện thoại iphone')
+                }
+                break;
+            case 'HopThuGuiDenNokia':
+                if (Nokia.check()) {
+                    Nokia.settextToSend(document.getElementById('resultNoika').value);
+                    document.getElementById('resultNoika').innerHTML=Nokia.gettextReceive();
+                    Nokia.decrease();
+                } else {
+                    alert('Mời bật điện thoại Nokia')
+                }
+                break;
+        }
+        showBattery();
+    }
+    function TinDaGui(obj) {
+        switch (obj.id) {
+            case 'TinDaGuiIp':
+                if (Iphone.check()) {
+                    Iphone.settextToSend(document.getElementById('resultIphone').value);
+                    document.getElementById('resultIphone').value=Iphone.gettextSend();
+                    Iphone.decrease();
+                } else {
+                    alert('Mời bật điện thoại iphone')
+                }
+                break;
+            case 'TinDaGuiNokia':
+                if (Nokia.check()) {
+                    Nokia.settextToSend(document.getElementById('resultNoika').value);
+                    document.getElementById('resultNoika').value=Nokia.gettextSend();
+                    Nokia.decrease();
+                } else {
+                    alert('Mời bật điện thoại Nokia')
+                }
+                break;
+        }
+        showBattery();
+    }
+    function Gui(obj)
+    {
+        switch (obj.id) {
+            case 'GuiChoNokia':
+                if (Iphone.check()) {
+                    Iphone.settextSend(document.getElementById('resultIphone').value);
+                    Nokia.settextReceive(document.getElementById('resultIphone').value);
+                    Iphone.decrease();
+                } else {
+                    alert('Mời bật điện thoại iphone')
+                }
+                break;
+            case 'GuiChoIp':
+                if (Nokia.check()) {
+                    Iphone.settextReceive(document.getElementById('resultNoika').value);
+                    Nokia.settextSend(document.getElementById('resultNoika').value);
+                    Nokia.decrease();
+                } else {
+                    alert('Mời bật điện thoại Nokia')
+                }
+                break;
+        }
+        showBattery();
+    }
+</script>
+</body>
+</html>

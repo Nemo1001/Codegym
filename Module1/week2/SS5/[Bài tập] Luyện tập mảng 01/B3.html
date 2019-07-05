@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B3</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B2</title>
+</head>
+<body>
+<script>
+    let x = parseInt(prompt("Nhập số lượng số nguyên bạn muốn nhập vào: "))
+    let array = [];
+    for (let i = 0; i < x; i++) {
+        y = parseInt(prompt("Nhập số nguyên: "));
+        array.push(y);
+    }
+    let index = 0;
+    let max = array[0];
+    for (let j = 1; j < array.length; j++) {
+        if (max < array[j]) {
+            max = array[j];
+            index++;
+        }
+    }
+    let TB;
+    let sum = 0;
+    for (let k = 0; k < array.length; k++)
+        sum = sum + array[k];
+    TB = sum / x
+    document.write("Giá trị trung bình của dãy số là " + TB + "<Br>");
+
+    if (index > 0) {
+        document.write("Số lớn nhất là  " + max + " ở vị trí " + index);
+    } else {
+        document.write("Số lớn nhất là  " + array[0]);
+    }
+
+</script>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vòng lặp while</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt("Enter a number: "));
+    var total = 0;
+    while( num != -1 ) {
+        alert(num)
+       total += num;
+       num = parseInt(prompt("Enter a number: "));
+    }
+    alert("Tổng các số đã nhập là: " + total);
+</script>
+</body>
+</html>

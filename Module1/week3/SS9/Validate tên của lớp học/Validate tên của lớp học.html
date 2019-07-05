@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validate tên của lớp học</title>
+</head>
+<body>
+<input id="tenLop" type="text">
+<button type="submit" id="Validate" onclick="Validate()">Validate!</button>
+<script>
+    function Validate() {
+        let x = document.getElementById("tenLop").value;
+        regexp = /^[CAP]+[0-9]{4,}[G-M]$/;
+        if (regexp.test(x)) {
+            document.write("Tên lớp của bạn hợp lệ");
+        } else {
+            document.write("Tên lớp của bạn không hợp lệ");
+        }
+    }
+</script>
+</body>
+</html>

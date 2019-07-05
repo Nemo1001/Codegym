@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head>
+<body>
+<input type="text" name="search" id="tim">
+<input type="button" value="dich" onclick="nhap()"/>
+<p id="show_result"/>
+<script>
+    function nhap() {
+        let eng = ["hello", "array", "name"];
+        let vie = ["xin chào", "Mảng", "Tên"];
+        let x = document.getElementById('tim');
+
+        for (let i = 0; i <= eng.length; i++) {
+            if (x.value === eng[i]) {
+                document.getElementById("show_result").innerHTML="Từ này có nghĩa là: " + vie[i];
+                break;
+            } else {
+                document.getElementById("show_result").innerHTML="không tìm thấy trong tử điển";
+            }
+        }
+    }
+</script>
+
+
+</body>
+</html>

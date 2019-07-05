@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi nhiệt độ</title>
+</head>
+<body>
+<p>
+    <label>meter</label>
+    <input id="inputmeter" type="number" placeholder="meter"
+           oninput="meterConverter(this.value)"
+           onchange="meterConverter(this.value)">
+    </p>
+<p>foot: <span id="outputfoot"></span></p>
+<label>foot</label>
+<input id="inputfoot" type="number" placeholder="foot"
+       oninput="footConverter(this.value)"
+       onchange="footConverter(this.value)">
+</p>
+<p>meter: <span id="outputmeter"></span></p>
+<script>
+    function meterConverter(valNum) {
+        valNum = parseFloat(valNum);
+        document.getElementById("outputfoot").innerHTML = (valNum * 3.279);
+    }
+    function footConverter(valNum) {
+        valNum = parseFloat(valNum);
+        document.getElementById("outputmeter").innerHTML = (valNum * 0.305);
+    }
+
+</script>
+</body>
+</html>

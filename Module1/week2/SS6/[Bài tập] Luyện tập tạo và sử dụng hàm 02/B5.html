@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B4</title>
+</head>
+<body>
+<body onload="tim_min(parseInt(prompt('Nhập x:')),parseInt(prompt('Nhập y:')), parseInt(prompt('Nhập z:')))">
+<script>
+    function tim_min(x,y,z) {
+        if (y < x && y < z )
+        {
+            document.write("số nhỏ nhất là " + y);
+        }
+    else if (z < x && z < y) {
+            document.write("số nhỏ nhất là " + z);
+        }
+    else
+            document.write("số nhỏ nhất là " + x);
+    }
+</script>
+</body>
+</html>

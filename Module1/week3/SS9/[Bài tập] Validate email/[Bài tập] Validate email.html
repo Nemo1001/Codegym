@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validate email</title>
+</head>
+<body>
+<input id='email' type="email">
+
+<button type='submit' id='validate' onclick="Validate()">Validate!</button>
+
+<script>
+
+
+    function Validate() {
+        let x = document.getElementById("email").value;
+        regexp = /^[a-zA-Z0-9]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/g;
+        if (regexp.test(x)) {
+            document.write("Email của bạn hợp lệ");
+        } else {
+            document.write("Email của bạn không hợp lệ");
+        }
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Case studio] Bouncing Ball Game</title>
+</head>
+<body onkeydown="run()">
+<h3>Bouncing Ball</h3>
+<center>
+    <form id="gameBoard"></form>
+</center>
+<script>
+    let GameBoard = function () {
+        this.drawGameBoard = function () {
+            let draw = "";
+            draw += "<canvas id='myCanvas' width='500' height='500' style='background:cornflowerblue' ></canvas>";
+            document.getElementById("gameBoard").innerHTML = draw;
+        }
+    };
+    const toadoX_ball = 250;
+    const toadoY_ball = 40;
+    const speedX = 5;
+    const speedY = 5;
+    const banKinh = 10;
+    let Ball = function (bar) {
+        this.toadoX = toadoX_ball;
+        this.toadoY = toadoY_ball;
+        this.radius = banKinh;
+        this.dx = speedX;
+        this.dy = speedY;
+        this.drawBall = function () {
+            let c = document.getElementById("myCanvas");
+            let ctx = c.getContext("2d");
+            ctx.beginPath();
+            ctx.clearRect(0, 0, 500, 500);
+            ctx.arc(this.toadoX, this.toadoY, this.radius, 0, 2 * Math.PI);
+            ctx.fillStyle = "red";
+            ctx.fill();
+            ctx.stroke();
+        };
+        this.move = function () {
+            if ((this.toadoX + this.radius) > 500 || (this.toadoX - this.radius) < 0) {
+                this.dx = -this.dx;
+            }
+            if ((this.toadoY - this.radius) < 0) {
+                this.dy = -this.dy;
+            }
+            if (((this.toadoY + this.radius) >= bar.getY()) && ((this.toadoY + this.radius) <= (bar.getY() + caoBar)) &&
+                ((this.toadoX + this.radius) >= bar.getX()) && ((this.toadoX - this.radius) <= (bar.getX() + rongBar))) {
+                this.dy = -this.dy;
+            }
+            if (this.toadoY > 500) {
+                alert("you lose");
+                this.toadoX = toadoX_ball;
+                this.toadoY = toadoY_ball;
+            }
+
+            this.toadoX += this.dx;
+            this.toadoY += this.dy;
+        };
+    };
+    const toadoX_bar = 250;
+    const toadoY_bar = 450;
+    const rongBar = 60;
+    const caoBar = 5;
+    const speedBar = 50;
+    let Bar = function () {
+        this.toadoX_bar = toadoX_bar;
+        this.toadoY_bar = toadoY_bar;
+        this.rongBar = rongBar;
+        this.caoBar = caoBar;
+        this.speedBar = speedBar;
+        this.drawBar = function () {
+            let c = document.getElementById("myCanvas");
+            let ctx = c.getContext("2d");
+            ctx.fillStyle = "black";
+            ctx.fillRect(this.toadoX_bar, this.toadoY_bar, this.rongBar, this.caoBar);
+        };
+        this.moveRight = function () {
+            if (this.toadoX_bar < 500 - this.rongBar) {
+                this.toadoX_bar += this.speedBar;
+            }
+        };
+        this.moveLeft = function () {
+            if (this.toadoX_bar > 0) {
+                this.toadoX_bar -= this.speedBar;
+            }
+        };
+        this.getX = function () {
+            return this.toadoX_bar;
+        };
+        this.getY = function () {
+            return this.toadoY_bar;
+        };
+    };
+
+    function MoveBar(evt) {
+        switch (evt.keyCode) {
+            case 37: {
+                bar.moveLeft();
+                break;
+            }
+            case 39: {
+                bar.moveRight();
+                break;
+            }
+        }
+    }
+
+    function run() {
+        window.addEventListener('keydown', this.MoveBar);
+    }
+
+    let gameBoard1 = new GameBoard();
+    gameBoard1.drawGameBoard();
+    let bar = new Bar();
+    bar.drawBar();
+    let draw_ball = new Ball(bar);
+    draw_ball.drawBall();
+    draw_ball.move();
+
+    function moveBall() {
+        draw_ball.move();
+        draw_ball.drawBall();
+        bar.drawBar();
+        requestAnimationFrame(moveBall);
+    }
+
+    moveBall();
+
+</script>
+</body>
+</html>

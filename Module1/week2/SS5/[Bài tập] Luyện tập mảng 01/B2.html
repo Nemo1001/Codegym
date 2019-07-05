@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B2</title>
+</head>
+<body>
+<script>
+    let array = [];
+    for (let i = 0; i < 10; i++) {
+        y = parseInt(prompt("Nhập dãy số nguyên: "));
+        array.push(y);
+    }
+    let index = 0;
+    let max = array[0];
+    for (let j = 1; j < array.length; j++) {
+        if (max < array[j]) {
+            max = array[j];
+            index++;
+        }
+    }
+    if (index > 0) {
+        document.write("Số lớn nhất là " + max + " ở vị trí " + index);
+    } else {
+        document.write("Số lớn nhất là " + array[0]);
+    }
+
+</script>
+</body>
+</html>

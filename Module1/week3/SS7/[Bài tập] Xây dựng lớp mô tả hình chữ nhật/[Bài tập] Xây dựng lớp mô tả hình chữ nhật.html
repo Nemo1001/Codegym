@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Xây dựng lớp mô tả hình chữ nhật</title>
+</head>
+<body>
+<canvas id="myCanvas" width="420px" height="220px" style="border:4px solid #0035d3;">
+    <p id="ketqua"></p>
+    <script>
+        function Rectangle(d, r) {
+            this.d = d;
+            this.r = r;
+
+            this.dienTich = function () {
+                return this.d * this.r
+            };
+            this.chuVi = function () {
+                return (this.d + this.r) * 2
+            };
+
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(10, 10, d, r);
+        }
+
+
+        let Rectangle1 = new Rectangle(400,200);
+       alert("Diện tích của hình chữ nhật là: " + Rectangle1.dienTich());
+        alert("Chu vi là: " + Rectangle1.chuVi());
+
+    </script>
+</body>
+</html>

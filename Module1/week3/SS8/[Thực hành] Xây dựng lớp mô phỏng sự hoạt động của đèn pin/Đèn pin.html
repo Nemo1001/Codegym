@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+<script>
+    let lamp = function () {
+        this.tunOff = function () {
+            this.status = false;
+        };
+
+        this.turnOn = function () {
+            this.status = true;
+        };
+    };
+    this.light = function () {
+        if (this.status === true) {
+            alert("Lighting on");
+        } else {
+            alert("lighting off");
+        }
+    };
+
+    let switchButton = function () {
+        this.connectToLamp = function (lamp) {
+            this.lamp = lamp;
+        };
+        this.switchOff = function () {
+            this.lamp.turnOff();
+        };
+        this.switchOn = function () {
+            this.lamp.turnOn();
+        };
+    }
+    let lamp1 = new lamp();
+    let switchbutton1 = new switchButton();
+    switchbutton1.connectToLamp(lamp);
+    switchbutton1.switchOn();
+    switchbutton1.switchOff();
+    switchbutton1.light
+
+</script>
+</body>
+</html>

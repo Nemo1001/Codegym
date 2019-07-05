@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 2</title>
+</head>
+<body>
+<script>
+    function countSpace(str) {
+        let regexp = /\s/g;
+        let result = str.match(regexp);
+        return result.length;
+    }
+    let count = countSpace("I am Ironman");
+    alert(count+1);
+</script>
+</body>

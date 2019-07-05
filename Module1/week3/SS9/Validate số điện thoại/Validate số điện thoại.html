@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validate số điện thoại</title>
+</head>
+<body>
+
+<script>
+
+    function Validate(str) {
+        //let x = parseInt(document.getElementById("number").value);
+        check = /^[84]+[0-9]{9,10}$xx/;
+        if (check.test(str)) {
+            document.write("SĐT của bạn hợp lệ ");
+        } else {
+            document.write("SĐT của bạn không hợp lệ ");
+        }
+    }
+
+    Validate("84989954640");
+
+</script>
+</body>
+</html>

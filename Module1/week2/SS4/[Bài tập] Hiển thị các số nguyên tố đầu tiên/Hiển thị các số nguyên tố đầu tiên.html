@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Hiển thị các số nguyên tố đầu tiên</title>
+</head>
+<body>
+<script>
+    let numbers = parseInt(prompt("Bạn muốn in ra bao nhiêu số nguyên tố đầu tiên?"));
+    let count = 0;
+    for (let i = 2; count < numbers; i++){
+        if(checkSoNguyenTo(i)){
+            count++;
+            document.write(i+",");
+        }
+    }
+
+    function checkSoNguyenTo(num) {
+        for(let i = 2; i < num - 1; i++){
+            if(num % i === 0){
+                return  false;
+            }
+        }
+        return true;
+    }
+
+
+
+
+</script>
+</body>
+</html>

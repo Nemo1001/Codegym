@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+</head>
+<body>
+<script>
+
+    function nhiet_Do(C) {
+        this.x = C;
+        this.F = function ChangeCtoF() {
+            return (this.x * 9/5 + 32)
+        };
+        this.K = function ChangeCtoK(){
+            return (this.x + 273.15)
+        };
+    }
+    let nhiet_Do1 = new nhiet_Do(25);
+   // document.write("Độ C là: " + nhiet_Do1.ChangeCto() + "<br>");
+    document.write("Độ F là: " + nhiet_Do1.F() + "<br>");
+    document.write("Độ K là: " + nhiet_Do1.K() + "<br>");
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Star</title>
+</head>
+<body>
+<button id="inputStar" onclick="inputStar()">inputStar</button>
+<script>
+function inputStar() {
+        let star = prompt('Nhập tên ngôi sao : ');
+        let ngoiSao = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe"];
+        let chomSao = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+        let hien_thi = true;
+        for (let i = 0; i < ngoiSao.length; i++) {
+            if (star === ngoiSao[i]) {
+                let ten = ngoiSao[i] + chomSao[i];
+               hien_thi === true;
+                alert(ngoiSao[i] + " " + chomSao[i]);
+                break;
+                } else {
+                hien_thi === false;
+            }
+
+           if (hien_thi === false) {
+               alert("Không tìm thấy kết quả")
+           }
+
+        }
+    }
+
+</script>
+</body>
+</html>

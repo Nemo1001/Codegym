@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đèn pin</title>
+</head>
+<body>
+<input type="button" value="Bật/tắt" id="TurnOnOff" onclick="TurnOnOFF()">
+<div id="Status">Tắt</div>
+<script>
+    function TurnOnOFF(status) {
+        this.status = status;
+        this.turnOn = function () {
+            this.status = true;
+        }
+        this.turnOff = function () {
+            this.status = false;
+            if (this.status === true) {
+                alert("Lighting")
+
+            } else if (this.status === false) {
+                alert("Not lighting");
+            }
+        }
+    }
+
+    document.getElementById('Status').innerHTML = status ? 'Bật' : 'Tắt';
+
+    function TurnOnOFF(status) {
+        status ? this.turnOFF() : this.turnOn();
+    }
+</script>
+</body>
+</html>

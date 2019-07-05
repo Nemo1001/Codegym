@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm kiểm tra số nguyên tố</title>
+</head>
+<body>
+<script>
+
+let count = 0;
+for (let i = 2; i < 10000; i++){
+if(checkSoNguyenTo(i)){
+count++;
+document.write(i+ "<br>");
+}
+}
+
+function checkSoNguyenTo(num) {
+for(let i = 2; i < num - 1; i++){
+if(num % i === 0){
+return  false;
+}
+}
+return true;
+}
+</script>
+</body>
+</html>

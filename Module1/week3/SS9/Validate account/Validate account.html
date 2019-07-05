@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validate account</title>
+</head>
+<body>
+<input id="account" type="text">
+<button type="submit" id="validate" onclick="validate()">validate</button>
+<script>
+function validate() {
+    let x = document.getElementById("account").value;
+    regexp = /^[_a-z0-9]{6,}$/
+    if (regexp.test(x)) {
+        document.write("accout của bạn hợp lệ");
+            }
+    else {
+        document.write("Email của bạn không hợp lệ");
+    }
+}
+    
+</script>
+</body>
+</html>
