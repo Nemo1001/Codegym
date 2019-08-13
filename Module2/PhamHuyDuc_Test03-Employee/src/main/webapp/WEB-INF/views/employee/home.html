@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Employee Management</h3>
+<h4>Home</h4>
+<a href="/employee/create">Create new employee</a>
+<p>Select a department to view department's employees:</p>
+<form th:action="@{/department/view}" method="get">
+    <select name="departmentId" onchange="this.form.submit()">
+        <option th:each=" d: ${departments}" th:href="@{/department/view/__${d.id}__}" th:value="${d.id}" th:text="${d.name}"></option>
+    </select>
+</form>
+<p>Sort:</p>
+<form id="sort" action="/employee/sort" method="get">
+    <select name="sortType" onchange="this.form.submit()" >
+        <option value="salaryDesc" th:selected="${select} ==1" >Sort by salary desc</option>
+        <option value="salaryAsc" th:selected="${select} == 2">Sort by salary asc</option>
+    </select>
+</form>
+
+<table border="1">
+    <tr>
+        <td>Name</td>
+        <td>Birth Date</td>
+        <td>Address</td>
+        <td>Avatar</td>
+        <td>Salary</td>
+        <td>Department</td>
+        <td>Edit</td>
+        <td>Delete</td>
+        <td>View</td>
+    </tr>
+    <th:block th:each="employee:${employees}">
+        <tr>
+            <td th:text="${employee.name}"></td>
+            <td th:text="${employee.birthDate}"></td>
+            <td th:text="${employee.address}"></td>
+            <td><img width="50px" height="50px" th:src="@{'/image/' + ${employee.avatar}}"></td>
+            <td th:text="${employee.salary}"></td>
+            <td th:text="${employee.department.name}"></td>
+            <td><a th:href="@{/employee/edit/__${employee.getId()}__}">Edit</a></td>
+            <td><a th:href="@{/employee/delete/__${employee.getId()}__}">Delete</a></td>
+            <td><a th:href="@{/employee/view/__${employee.getId()}__}">View</a></td>
+        </tr>
+    </th:block>
+</table>
+<div>
+    <a th:href="@{'/employee/home'(page=${employees.number - 1})}" th:if="${employees.hasPrevious()}">Previous</a>
+    <span th:text="${employees.number + 1}"></span>/<span th:text="${employees.totalPages}"></span>
+    <a th:href="@{'/employee/home'(page=${employees.number + 1})}" th:if="${employees.hasNext()}">Next</a>
+</div>
+
+</body>
+</html>
