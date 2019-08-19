@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>City list</title>
+
+</head>
+<body>
+<table border="1">
+
+
+   <a href="/city/create">Create new customer</a>
+    <br/>
+
+
+
+<h1>Customer list</h1>
+<form>
+    Search by first Name:
+    <input type="text" name="s">
+    <input type="submit" value="Search">
+</form>
+<br/>
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>City</th>
+        <th>Nation</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <th:block th:each="city: ${citys}">
+        <tr>
+            <td th:text="${city.Id}"></td>
+                  <td th:text="${city.city}"></td>
+            <td th:text="${city.nation}"></td>
+            <td><a th:href="@{/city/edit/__${city.id}__}">Edit</a></td>
+            <td><a th:href="@{/city/delete/__${city.id}__}">Delete</a></td>
+        </tr>
+    </th:block>
+</table>
+<div>
+    <a th:href="@{'/city/list'(page=${citys.number - 1})}" th:if="${citys.hasPrevious()}">Previous</a>
+    <span th:text="${citys.number + 1}"></span>/<span th:text="${citys.totalPages}"></span>
+    <a th:href="@{'/city/list'(page=${citys.number + 1})}" th:if="${citys.hasNext()}">Next</a>
+
+</div>
+</body>
+</html>
