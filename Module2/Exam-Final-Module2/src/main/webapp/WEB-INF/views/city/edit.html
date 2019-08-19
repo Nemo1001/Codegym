@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Edit city</title>
+</head>
+<body>
+<h1>Edit city</h1>
+<p><a href="/city/list">Back to city list</a></p>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form th:action="@{/city/update}" th:object="${city}" method="post">
+    <input th:type="hidden" th:field="*{id}">
+    <table>
+        <tr>
+            <td>name:</td>
+            <td><input type="text" th:field="*{name}"/></td>
+        </tr>
+        <tr>
+            <td>nation:</td>
+            <td><input type="text" th:field="*{nation}"/></td>
+        </tr>
+        <tr>
+            <td>Population:</td>
+            <td><input type="text" th:field="*{population}"/></td>
+        </tr>
+        <tr>
+            <td>Area:</td>
+            <td><input type="text" th:field="*{area}"/></td>
+        </tr>
+        <tr>
+            <td>GDP:</td>
+            <td><input type="text" th:field="*{GDP}"/></td>
+        </tr> description
+        <tr>
+            <td>description:</td>
+            <td><input type="text" th:field="*{description}"/></td>
+        </tr>
+        <tr>
+            <td>nation:</td>
+            <td><input type="text" th:field="*{nation}"/></td>
+        </tr>
+        <tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" th:value="update"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
