@@ -1,4 +1,6 @@
 package com.codegym.service;
 
-public interface ReceptionistService {
+import com.codegym.model.Receptionist;
+
+public interface ReceptionistService extends GeneralService<Receptionist> {
 }

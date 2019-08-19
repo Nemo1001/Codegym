@@ -23,7 +23,7 @@ public class CustomerController {
         return modelAndView;
     }
 
-    @GetMapping("create")
+    @GetMapping("/create")
     public ModelAndView showCreateForm(){
         ModelAndView modelAndView = new ModelAndView("/customer/create");
         modelAndView.addObject("customer", new Customer());

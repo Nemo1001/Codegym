@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-
+<a th:href="@{/customer/create}">
+    Add new customer
+</a>
+<footer th:replace="layout :: footer"></footer>
 </body>
 </html>

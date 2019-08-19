@@ -2,35 +2,25 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Edit Blog</title>
+    <title>Edit category</title>
 </head>
 <body>
 <p>
-    <a href="/Post/list">Blog List</a>
+    <a href="/category/list">category List</a>
 </p>
 <th:block th:if="${message}">
     <p th:text="${message}"></p>
 </th:block>
-<form th:action="@{/Post/save}" th:object="${post}" method="post">
+<form th:action="@{/category/save}" th:object="${category}" method="post">
     <input th:type="hidden" th:field="*{id}">
     <table>
         <tr>
-            <td>Author:</td>
-            <td><input type="text" th:field="*{title}"></td>
-        </tr>
-        <tr>
-            <td>Content:</td>
-            <td><input type="text" th:field="*{content}"></td>
-        </tr>
-        <tr>
-        <tr>
-            <td>Writer:</td>
-            <td><input type="text" th:field="*{writer}"></td>
-        </tr>
+            <td>Name:</td>
+            <td><input type="text" th:field="*{name}"></td>
         </tr>
         <tr>
             <td></td>
-            <td><input type="submit" value="Update blog"></td>
+            <td><input type="submit" value="Update category"></td>
         </tr>
     </table>
 </form>

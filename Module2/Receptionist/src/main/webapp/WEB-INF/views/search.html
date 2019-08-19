@@ -1,10 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Search</title>
 </head>
 <body>
-$END$
+<form action="#" th:action="@{/receptionist/search}" method="post">
+    <input type="text" name="name">
+    <input type="submit" value="Search">
+</form>
+<div th:if="${receptionist}!=null">
+    <table border="1px">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Hobby</th>
+            <th>Avatar</th>
+            <th>Edit</th>
+            <th>Delete</th>
+            <th>Detail</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td th:text="${receptionist.id}"></td>
+            <td th:text="${receptionist.name}"></td>
+            <td th:text="${receptionist.age}"></td>
+            <td th:text="${receptionist.address}"></td>
+            <td th:text="${receptionist.hobby}"></td>
+            <td><img width="50px" height="50px" th:src="@{'/image/' + ${receptionist.avatar}}"></td>
+            <td><a th:href="@{/receptionist/edit/__${receptionist.id}__}">Edit</a></td>
+            <td><a th:href="@{/receptionist/delete/__${receptionist.id}__}">Delete</a></td>
+            <td><a th:href="@{/receptionist/detail/__${receptionist.id}__}">Detail</a></td>
+
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div th:text="${message}"></div>
+<a href="/receptionist/list">Back to receptionist list</a>
 </body>
 </html>
+© 2019 GitHub, Inc.

@@ -5,32 +5,24 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Create blog</h1>
+<h1>Create Category</h1>
 <p>
-    <a href="/Post/list">Back to blog list</a>
+    <a href="/category/list">Back to category list</a>
 </p>
-<th:block th:if="${message}">
-    <p th:text="${message}"></p>
-</th:block>
-<form th:action="@{/Post/save}" th:object="${customers}" method="post">
-    <table>
-        <tr>
-            <td>Title:</td>
-            <td><input type="text" th:field="*{title}"></td>
-        </tr>
-        <tr>
-            <td>Writer:</td>
-            <td><input type="text" th:field="*{writer}"></td>
-        </tr>
-        <tr>
-            <td>Content:</td>
-            <td><input type="text" th:field="*{content}"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><input type="submit" value="Create Blog"></td>
-        </tr>
-    </table>
-</form>
+    <th:block th:if="${message}">
+        <p th:text="${message}"></p>
+    </th:block>
+    <form th:action="@{/category/save}" th:object="${category}" method="post">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" th:field="*{name}"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Create Category"></td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>

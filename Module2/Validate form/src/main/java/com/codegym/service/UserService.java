@@ -1,4 +1,5 @@
 package com.codegym.service;
 
-public class UserController {
+public interface UserService {
+
 }

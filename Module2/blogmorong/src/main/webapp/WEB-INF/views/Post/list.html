@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/Post/create">Create new article</a>
+<h1>ArticleList</h1>
+<table border="1">
+    <tr>
+        <th>Title</th>
+        <th>Writer</th>
+        <th>Content</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <th:block th:each="postEmplement:${post}">
+        <tr>
+
+            <td th:text="${postEmplement.getTitle()}"></td>
+            <td th:text="${postEmplement.getWriter()}"></td>
+            <td th:text="${postEmplement.getContent()}"></td>
+            <td><a th:href="@{edit/__${postEmplement.id}__}">Edit</a></td>
+            <td><a th:href="@{remove/__${postEmplement.id}__ }">Delete</a></td>
+        </tr>
+        <div>
+            <h1>article</h1>
+            <form>
+                Search by first name:
+                <input name="s" type="text"/>
+                <input type="submit" value="Search"/>
+            </form><br/>
+            <table border="1">
+            <a th:href="@{'/post'(page=${postEmplement.number - 1})}" th:if="${postEmplement.hasPrevious()}">Previous</a>
+            <span th:text="${postEmplement.number + 1}"></span>/<span th:text="${postEmplement.totalPages}"></span>
+            <a th:href="@{'/post'(page=${postEmplement.number + 1})}" th:if="${postEmplement.hasNext()}">Next</a>
+        </div>
+    </th:block>
+
+</table>
+</body>
+</html>

@@ -24,7 +24,7 @@ public class LoginController {
     public String Index(@CookieValue(value = "setUser", defaultValue = "") String setUser, Model model) {
         Cookie cookie = new Cookie("setUser", setUser);
         model.addAttribute("cookieValue", cookie);
-        return "login";
+        return "view";
     }
 
     @PostMapping("/dologin")
@@ -37,7 +37,7 @@ public class LoginController {
 
             // create cookie and set it in response
             Cookie cookie = new Cookie("setUser", setUser);
-            cookie.setMaxAge(24 * 60 * 60);
+            cookie.setMaxAge(15);
             response.addCookie(cookie);
 
             //get all cookies
@@ -56,11 +56,11 @@ public class LoginController {
             }
             model.addAttribute("message", "Login success. Welcome ");
         } else {
-            user.setEmail("");
+            user.setEmail(" ");
             Cookie cookie = new Cookie("setUser", setUser);
             model.addAttribute("cookieValue", cookie);
             model.addAttribute("message", "Login failed. Try again.");
         }
-        return "login";
+        return "view";
     }
 }

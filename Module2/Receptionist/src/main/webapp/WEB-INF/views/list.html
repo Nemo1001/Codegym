@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<h3>Receptionist List</h3>
+<a href="/receptionist/create">Create</a>
+<a href="/receptionist/search">Search</a>
+<!--<div th:each="receptionist : ${receptionistList}">-->
+<!--    <p th:text="${receptionist.id}"></p>-->
+<!--    <p th:text="${receptionist.name}"></p>-->
+<!--    <p th:text="${receptionist.age}"></p>-->
+<!--    <p th:text="${receptionist.address}"></p>-->
+<!--    <p th:text="${receptionist.hobby}"></p>-->
+<!--    <img width="150px" height="200px" th:src="@{'/image/' + ${receptionist.avatar}}">-->
+<!--    <p><a th:href="@{/receptionist/edit/__${receptionist.id}__}">Edit</a></p>-->
+<!--    <p><a th:href="@{/receptionist/delete/__${receptionist.id}__}">Delete</a></p>-->
+<!--    <p><a th:href="@{/receptionist/detail/__${receptionist.id}__}">Detail</a></p>-->
+<!--</div>-->
+<table border="1px">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+        <th>Hobby</th>
+        <th>Avatar</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        <th>Detail</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="receptionist : ${receptionistList}">
+        <td th:text="${receptionist.id}"></td>
+        <td th:text="${receptionist.name}"></td>
+        <td th:text="${receptionist.age}"></td>
+        <td th:text="${receptionist.address}"></td>
+        <td th:text="${receptionist.hobby}"></td>
+        <td><img width="50px" height="50px" th:src="@{'/image/' + ${receptionist.avatar}}"></td>
+        <td><a th:href="@{/receptionist/edit/__${receptionist.id}__}">Edit</a></td>
+        <td><a th:href="@{/receptionist/delete/__${receptionist.id}__}">Delete</a></td>
+        <td><a th:href="@{/receptionist/detail/__${receptionist.id}__}">Detail</a></td>
+
+
+    </tr>
+    </tbody>
+</table>
 
 </body>
 </html>

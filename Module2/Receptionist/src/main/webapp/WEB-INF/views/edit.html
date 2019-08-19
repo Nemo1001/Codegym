@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 
+<h3> Add Receptionist </h3>
+
+<p th:if="${message}" th:text="${message}"></p>
+
+<form action="#" th:action="@{/receptionist/update}" th:object="${receptionistForm}" method="post" enctype="multipart/form-data">
+    <p> <input type="hidden" th:field="*{id}"/></p>
+    <p>Name: <input type="text" th:field="*{name}"/></p>
+    <p>Age: <input type="text" th:field="*{age}"></p>
+    <p>Address: <input type="text" th:field="*{address}"></p>
+    <p>Hobby: <input type="text" th:field="*{hobby}"></p>
+    <p>Image: <input type="file" th:field="*{avatar}"></p>
+    <p><input type="submit" value="Submit"/></p>
+</form>
+<a href="/receptionist/list">Back to receptionist list</a>
 </body>
 </html>

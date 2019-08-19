@@ -1,10 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Employee List</title>
 </head>
 <body>
-$END$
+<h2>Employee List</h2>
+<p>
+    <a href="/employee/create">Create Employee</a>
+</p>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>BirthDate</th>
+        <th>Address</th>
+        <th>salary</th>
+        <th>Department</th>
+        <th>Avatar</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <th:block th:each="employee : ${employees}">
+        <tr>
+            <td th:text="${employee.getName()}"></td>
+            <td th:text="${employee.getBirthDate()}"></td>
+            <td th:text="${employee.getAddress()}"></td>
+            <td th:text="${employee.getSalary()}"></td>
+            <td><span th:if="${employee.department!=null}" th:text="${employee.department.getName()}"></span></td>
+            <td><img width="50px" height="80px" th:src="@{'/image/' + ${employee.getAvatar()}}"></td>
+            <td><a th:href="@{/employee/edit/__${employee.getId()}__}">Edit</a></td>
+            <td><a th:href="@{/employee/delete/__${employee.getId()}__}">Delete</a></td>
+        </tr>
+    </th:block>
+</table>
+<div>
+    <a th:href="@{'/employee/list'(page=${employees.number - 1})}" th:if="${employees.hasPrevious()}">Previous</a>
+    <span th:text="${employees.number + 1}"></span>/<span th:text="${employees.totalPages}"></span>
+    <a th:href="@{'/employee/list'(page=${employees.number + 1})}" th:if="${employees.hasNext()}">Next</a>
+</div>
+
+<p>
+    <a href="/department/list">Go to department list</a>
+</p>
+
 </body>
 </html>

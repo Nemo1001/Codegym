@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<a href="/Post/create">Create new article</a>
+<a href="/category/create">Create new category</a>
 <h1>ArticleList</h1>
 <table border="1">
     <tr>
@@ -15,14 +15,13 @@
         <th>Edit</th>
         <th>Delete</th>
     </tr>
-    <th:block th:each="postEmplement:${post}">
+    <th:block th:each="category:${categories}">
         <tr>
 
-            <td th:text="${postEmplement.getTitle()}"></td>
-            <td th:text="${postEmplement.getWriter()}"></td>
-            <td th:text="${postEmplement.getContent()}"></td>
-            <td><a th:href="@{edit/__${postEmplement.id}__}">Edit</a></td>
-            <td><a th:href="@{remove/__${postEmplement.id}__ }">Delete</a></td>
+
+            <td th:text="${category.name()}"></td>
+            <td><a th:href="@{category/edit/__${category.id}__}">Edit</a></td>
+            <td><a th:href="@{category/remove/__${category.id}__ }">Delete</a></td>
         </tr>
         <div>
             <h1>article</h1>
@@ -32,12 +31,14 @@
                 <input type="submit" value="Search"/>
             </form><br/>
             <table border="1">
-            <a th:href="@{'/post'(page=${postEmplement.number - 1})}" th:if="${postEmplement.hasPrevious()}">Previous</a>
-            <span th:text="${postEmplement.number + 1}"></span>/<span th:text="${postEmplement.totalPages}"></span>
-            <a th:href="@{'/post'(page=${postEmplement.number + 1})}" th:if="${postEmplement.hasNext()}">Next</a>
+                <div>
+                    <a th:href="@{'/category/list'(page=${categories.number - 1})}" th:if="${categories.hasPrevious()}">Previous</a>
+                    <span th:text="${categories.number + 1}"></span>/<span th:text="${categories.totalPages}"></span>
+                    <a th:href="@{'/category/list'(page=${categories.number + 1})}" th:if="${categories.hasNext()}">Next</a>
+                </div>
         </div>
     </th:block>
-
+    <p><a href="/category/list">Go to category list</a></p>
 </table>
 </body>
 </html>
