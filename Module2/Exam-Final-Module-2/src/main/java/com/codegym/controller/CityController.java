@@ -51,15 +51,15 @@ public class CityController {
     }
 
     @PostMapping("/save")
-    public String saveCity(@ModelAttribute("city") City city) {
+    public ModelAndView saveCity(@ModelAttribute("city") City city) {
         cityService.save(city);
         ModelAndView modelAndView = new ModelAndView("/city/create");
         modelAndView.addObject("city", new City());
         modelAndView.addObject("message", "new city created");
-        return "redirect:/city/list/";
+        return modelAndView;
     }
 
-     @GetMapping("/edit/{id}")
+    @GetMapping("/edit/{id}")
     public ModelAndView showEditCityForm(@PathVariable Long id) {
         City city = cityService.findById(id);
         if (city != null) {
@@ -107,16 +107,9 @@ public class CityController {
 
     @GetMapping("/view/{id}")
     public ModelAndView viewNation(@PathVariable("id") Long id) {
-        Nation nation = nationService.findById(id);
-        if (nation == null) {
-            return new ModelAndView("/error-404");
-        } else {
-            Iterable<City> cities = cityService.findAllByNation(nation);
-            ModelAndView modelAndView = new ModelAndView("/city/view");
-            modelAndView.addObject("Nation", nation);
-            modelAndView.addObject("cities", cities);
-            return modelAndView;
+        City city = cityService.findById(id);
+        ModelAndView modelAndView = new ModelAndView("/city/view", "city", city);
+        return modelAndView;
 
-        }
     }
 }

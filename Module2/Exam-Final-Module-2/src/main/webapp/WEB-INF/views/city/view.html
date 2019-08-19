@@ -5,27 +5,40 @@
     <title>View City</title>
 </head>
 <body>
-<h1>View city: <span th:text="${city.city}"></span></h1>
-<a href="/city/list">city list</a>
-<table border="1">
+<a href="/city/list"> Go to city list</a>
+<h1>View Detail</h1>
+<table>
     <tr>
-        <th>City</th>
-        <th>Nation</th>
-        <th>Area</th>
-        <th>population</th>
-        <th>GDP</th>
-        <th>description</th>
+        <td>Name:</td>
+        <td th:text="${city.name}"></td>
     </tr>
-    <th:block th:each="city : ${citys}">
-        <tr>
-            <td th:text="${city.name}"></td>
-            <td th:text="${city.nation}"></td>
-            <td th:text="${city.area}"></td>
-            <td th:text="${city.population}"></td>
-            <td th:text="${city.GDP}"></td>
-            <td th:text="${city.description}"></td>
-        </tr>
-    </th:block>
+    <tr>
+        <td>Nation:</td>
+        <td th:text="${city.nation.name}"></td>
+    </tr>
+    <tr>
+        <td>Population:</td>
+        <td th:text="${city.population}"></td>
+    </tr>
+    <tr>
+        <td>Area:</td>
+        <td th:text="${city.area}"></td>
+    </tr>
+    <tr>
+        <td>GDP:</td>
+        <td th:text="${city.GDP}"></td>
+    </tr>
+    <tr>
+        <td>description:</td>
+        <td th:text="${city.description}"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <a th:href="@{/city/edit/__${city.id}__}">Edit</a> |
+            <a th:href="@{/city/delete/__${city.id}__}">Delete</a>
+        </td>
+    </tr>
 </table>
 </body>
 </html>

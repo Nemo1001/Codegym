@@ -12,19 +12,19 @@
 <form th:action="@{/city/remove}" th:object="${city}" method="post">
     <input th:type="hidden" name="id" th:field="*{id}">
     <table>
-        <tr>
-            <td>Name:</td>
-            <td th:text="${city.name}"></td>
-        </tr>
-        <tr>
-            <td>Nation:</td>
-            <td th:text="${city.nation}"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><input type="submit" value="Delete city"></td>
-        </tr>
-    </table>
+    <tr>
+        <td>Name:</td>
+        <td th:text="${city.name}"></td>
+    </tr>
+    <tr>
+        <td>Nation:</td>
+        <td th:text="${city.nation.name}"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="Delete city"></td>
+    </tr>
+</table>
 </form>
 </body>
 </html>

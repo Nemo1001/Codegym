@@ -9,9 +9,9 @@ public class City {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private String name;
-    private double population;
-    private double area;
-    private double GDP;
+    private String population;
+    private String area;
+    private String GDP;
     private String description;
 
     @ManyToOne
@@ -21,7 +21,7 @@ public class City {
     public City() {
     }
 
-    public City(String name, double population, double area, double GDP, String description) {
+    public City(String name, String population, String area, String GDP, String description) {
         this.name = name;
         this.population = population;
         this.area = area;
@@ -32,14 +32,6 @@ public class City {
     @Override
     public String toString() {
         return String.format("name[id=%d, population='%s', area='%s', GDP='%s', description='%s']", id, name, population,area,GDP,description);
-    }
-
-    public Nation getNation() {
-        return (nation == null) ? new Nation() : nation;
-    }
-
-    public void setNation(Nation nation) {
-        this.nation = nation;
     }
 
     public long getId() {
@@ -58,27 +50,27 @@ public class City {
         this.name = name;
     }
 
-    public double getPopulation() {
+    public String getPopulation() {
         return population;
     }
 
-    public void setPopulation(double population) {
+    public void setPopulation(String population) {
         this.population = population;
     }
 
-    public double getArea() {
+    public String getArea() {
         return area;
     }
 
-    public void setArea(double area) {
+    public void setArea(String area) {
         this.area = area;
     }
 
-    public double getGDP() {
+    public String getGDP() {
         return GDP;
     }
 
-    public void setGDP(double GDP) {
+    public void setGDP(String GDP) {
         this.GDP = GDP;
     }
 
@@ -88,5 +80,13 @@ public class City {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Nation getNation() {
+        return nation;
+    }
+
+    public void setNation(Nation nation) {
+        this.nation = nation;
     }
 }

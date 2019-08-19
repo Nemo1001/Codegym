@@ -28,7 +28,6 @@
 <br/>
 <table border="1">
     <tr>
-
         <th>City</th>
         <th>Nation</th>
         <th>Detail</th>
@@ -36,11 +35,9 @@
         <th>Delete</th>
     </tr>
     <th:block th:each="city: ${citys}">
-        <td>
-
-        <td th:text="${city.name}"></td>
-            <td th:text="${city.nation}"></td>
-            <td><a href="/city/view/{id}/">Detail</a></td>
+             <td th:text="${city.name}"></td>
+            <td th:text="${city.nation.name}"></td>
+             <td><a th:href="@{/city/view/__${city.id}__}">Detail</a></td>
             <td><a th:href="@{/city/edit/__${city.id}__}">Edit</a></td>
             <td><a th:href="@{/city/delete/__${city.id}__}">Delete</a></td>
         </tr>

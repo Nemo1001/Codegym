@@ -89,21 +89,8 @@ public class NationController {
         return "redirect:/nation/list/";
     }
 
-    @GetMapping("/view/{id}")
-    public ModelAndView viewNation(@PathVariable("id") Long id) {
-        Nation nation = nationService.findById(id);
-        if (nation == null) {
-            return new ModelAndView("/error-404");
-        } else {
-            Iterable<City> cities = cityService.findAllByNation(nation);
-            ModelAndView modelAndView = new ModelAndView("/city/view");
-            modelAndView.addObject("Nation", nation);
-            modelAndView.addObject("cities", cities);
-            return modelAndView;
-
-        }
     }
-}
+
 
 
 
