@@ -1,0 +1,35 @@
+<div *ngIf="message"> {{ message }} </div>
+<h4>Create new Book</h4>
+<form #bookForm="ngForm" (ngSubmit)="createBook(bookForm)">
+  <table class="table">
+    <thead>
+    <tr>
+      <th scope="col" >ID</th>
+      <th scope="col" >Title</th>
+      <th scope="col" >Author</th>
+      <th scope="col" >Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td scope="row"  >
+        <input type="number" name="id" ngModel />
+      </td>
+      <td scope="row" >
+        <input type="text" name="title" ngModel />
+      </td>
+      <td scope="row">
+        <input type="text" name="author" ngModel />
+      </td>
+      <td scope="row" >
+        <input type="text" name="description" ngModel/>
+      </td>
+
+       <td>
+      <button scope="row"  type="submit">Add</button>
+    </td>
+    </tr>
+    </tbody>
+  </table>
+
+</form>

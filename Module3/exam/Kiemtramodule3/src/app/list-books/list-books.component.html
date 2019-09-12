@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  <a [routerLink]="['/','createBook']">Create Book</a>
+
+  <h2>Book List</h2>
+  <form>
+    <table class="table">
+      <thead>
+      <tr>
+        <th  scope="col">Title</th>
+        <th  scope="col">Author</th>
+        <th  scope="col">Description</th>
+        <th  scope="col">Delete</th>
+        <th  scope="col">Edit</th>
+        <th  scope="col">Detail</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let book of books">
+        <td scope="row">{{book.title}}</td>
+        <td scope="row">{{book.author}}</td>
+        <td scope="row" >{{book.description}}</td>
+        <td>
+          <button (click)="deleteBook(book.id)">Delete</button>
+        </td>
+        <td>
+          <button  (click)="editBook(book.id)">Edit</button>
+        </td>
+        <td>
+          <button (click)="detailBook(book.id)">Detail</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+    <div *ngIf="message" style="text-align: center"><p style="color: red">{{ message }}</p></div>
+  </form>
+
+</div>
