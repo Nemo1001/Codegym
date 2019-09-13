@@ -1,0 +1,5 @@
+<h1> {{seconds}} </h1>
+
+<button *ngIf="isPaused === true" type="button" (click)="startTimer()">Start</button>
+<button *ngIf="isPaused === false" type="button" (click)="stopTimer()">Stop</button>
+<button type="button" (click)="resetTimer()">Reset</button>

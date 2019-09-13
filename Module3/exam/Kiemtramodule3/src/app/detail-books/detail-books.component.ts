@@ -21,7 +21,7 @@ export class DetailBooksComponent implements OnInit {
       this.bookService.getDetail(id).subscribe(next => {
         this.book = next;
       }, error => {
-        this.message = 'Cannot retrieve customer detail. Reason: ' + error;
+        this.message = 'Cannot retrieve books detail. Reason: ' + error;
       });
     });
   }

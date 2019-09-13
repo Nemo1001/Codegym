@@ -1,0 +1,24 @@
+<p>Caculator</p>
+<label>
+  <input type="number" class="form-input"
+  value="first"
+  (change)="onFirstChange($event.target.value)">
+<select
+  class="form-input"
+  [value]="operator"
+  (change)="onSelectChange($event.target.value)">
+  <option value="+"> + </option>
+  <option value="-"> - </option>
+  <option value="*"> * </option>
+  <option value="/"> / </option>
+</select>
+  <input type="number" class="form-input"
+         value="second"
+         (change)="onSecondChange($event.target.value)">
+</label>
+<button class="form-input" (click)="caculate()">
+  Thực thi
+</button>
+<div class="Output">
+  {{output}}
+</div>

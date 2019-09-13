@@ -1,0 +1,32 @@
+
+<header class="row">
+  <div class="head col-sm-9">
+    <h1>Customer Management</h1>
+    <h5>Control every things you want</h5>
+  </div>
+  <div class="col-sm-3">
+  </div>
+</header>
+<nav>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active btn btn-primary" href="/" style="margin-left: 0.5rem">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link btn btn-primary" [routerLink]="['customer-management']" style="margin-left: 0.5rem">Customer Management</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link btn btn-primary" [routerLink]="['register']" style="margin-left: 0.5rem">Register</a>
+  </li>
+  <li>
+    <a class="nav-link btn btn-primary" [routerLink]="['login']" style="margin-left: 0.5rem">Login</a>
+  </li>
+</ul>
+</nav>
+<div class="container" style="height: auto">
+  <hr>
+  <router-outlet></router-outlet>
+</div>
+<footer >
+  <p style="text-align: center; color: #37c1ff">Free to connect </p>
+</footer>

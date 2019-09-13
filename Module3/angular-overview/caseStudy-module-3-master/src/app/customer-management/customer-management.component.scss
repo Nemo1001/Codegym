@@ -1,0 +1,34 @@
+
+.main > h2 {
+  color: red;
+  text-align: center;
+}
+
+table {
+  background: #37c1ff;
+  margin-left: 35%;
+  text-align: center;
+}
+
+tr td {
+  border: 1px solid black;
+}
+
+tr th {
+  border: 1px solid black;
+}
+
+button {
+  background: #37c1ff;
+}
+
+button:hover {
+  background: #d5d54d;
+}
+
+a {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+  float: right;
+  font-weight: bold ;
+}

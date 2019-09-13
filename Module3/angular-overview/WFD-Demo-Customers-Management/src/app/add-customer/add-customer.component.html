@@ -1,0 +1,26 @@
+<div *ngIf="message"> {{ message }} </div>
+
+<form #customerForm="ngForm" (ngSubmit)="addCustomer(customerForm)">
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>firstName</th>
+      <th>lastName</th>
+    </tr>
+    <tr>
+      <td>
+        <input type="number" name="id" ngModel />
+      </td>
+      <td>
+        <input type="text" name="firstName" ngModel />
+      </td>
+      <td>
+        <input type="text" name="lastName" ngModel />
+      </td>
+    </tr>
+    <tr>
+      <button type="submit">Add</button>
+    </tr>
+  </table>
+
+</form>

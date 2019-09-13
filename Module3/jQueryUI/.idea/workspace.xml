@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="141501ee-8e0f-466e-ab94-f8e9d2a9cbdb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Module2/Case_Study/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CV/.idea/CV.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CV/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CV/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CV/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landing Page/.idea/Landing Page.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landing Page/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landing Page/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landing Page/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Layout-Bootstrap/.idea/Layout-Bootstrap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Layout-Bootstrap/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Layout-Bootstrap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Layout-Bootstrap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Layout-Bootstrap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fixed header-fixed footer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fixed header-fixed footer/Header -footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gallery-Bootstrap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jQueryUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/ArrayList/src/com/company/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/Chuyen doi nhiet do/Chuyen doi nhiet do.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/ConvertSpring MVC/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/ConvertSpring MVC/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/MaxArray/MaxArray.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/Resizeable/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/Resizeable/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/Resizeable/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/hinh chu nhat - lop/hinh chu nhat - lop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/javaWebMVC-master/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/point 2d va 3d/point 2d va 3d.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/spring-greeting/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/spring-greeting/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/tim gia tri nho nhat/tim gia tri nho nhat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/trienkhailoplist/trienkhailoplist.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module1/week1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1/week1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/src/main/java/com/codegym/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/src/main/java/com/codegym/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/src/main/java/com/codegym/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/src/main/java/com/codegym/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/src/main/webapp/WEB-INF/views/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/configuration/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/configuration/ApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/configuration/CustomSuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/configuration/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/configuration/SecurityWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/controller/NoteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/controller/NoteTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/model/Note.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/model/NoteType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/repository/NoteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/repository/NoteTypeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/service/NoteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/service/NoteTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/service/impl/NoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/service/impl/NoteTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/build/libs/Exam-Final-Module2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/build/libs/Exam-Final-Module2-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/src/main/webapp/WEB-INF/views/city/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/src/main/webapp/WEB-INF/views/city/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/src/main/webapp/WEB-INF/views/nation/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/src/main/webapp/WEB-INF/views/nation/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/casestudy-modul2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/casestudy-modul2/.idea/casestudy-modul2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/casestudy-modul2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/casestudy-modul2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/casestudy-modul2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SystemTime/SystemTime.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test/src/test.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sortable.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Accordion.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1104">
+              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Autocomplete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dialog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Slider.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/progressbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datepicker.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Droppable.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Draggable.html" />
+        <option value="$PROJECT_DIR$/Droppable.html" />
+        <option value="$PROJECT_DIR$/Resizable.html" />
+        <option value="$PROJECT_DIR$/Selectable.html" />
+        <option value="$PROJECT_DIR$/Sortable.html" />
+        <option value="$PROJECT_DIR$/Accordion.html" />
+        <option value="$PROJECT_DIR$/Autocomplete.html" />
+        <option value="$PROJECT_DIR$/test.ts" />
+        <option value="$PROJECT_DIR$/Datepicker.html" />
+        <option value="$PROJECT_DIR$/dialog.html" />
+        <option value="$PROJECT_DIR$/Slider.html" />
+        <option value="$PROJECT_DIR$/progressbar.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jQueryUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jQueryUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jQueryUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jQueryUI" type="462c0819:PsiDirectoryNode" />
+              <item name="test.ts" type="620a8d5e:NestingTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular-overview/angular-change-font-size" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="141501ee-8e0f-466e-ab94-f8e9d2a9cbdb" name="Default Changelist" comment="" />
+      <created>1566870335554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566870335554</updated>
+      <workItem from="1566870337630" duration="8018000" />
+      <workItem from="1566896367222" duration="638000" />
+      <workItem from="1566897086873" duration="812000" />
+      <workItem from="1566959183546" duration="212000" />
+      <workItem from="1566965581297" duration="653000" />
+      <workItem from="1566980951639" duration="232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10565000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1297" height="784" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988067" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" sideWeight="0.50119334" side_tool="true" weight="0.2494043" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3296" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test.js" />
+      </list>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Draggable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resizable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Selectable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sortable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Accordion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Autocomplete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datepicker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droppable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progressbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+<!--<table *ngIf="customer">-->
+<!--  <tr>-->
+<!--    <th>ID</th>-->
+<!--    <th>First Name</th>-->
+<!--    <th>Last Name</th>-->
+<!--  </tr>-->
+<!--  <tr>-->
+<!--    <td>{{customer.id}}</td>-->
+<!--    <td>{{customer.firstName}}</td>-->
+<!--    <td>{{customer.lastName}}</td>-->
+<!--  </tr>-->
+<!--</table>-->
+
+<div *ngIf="message"> {{ message }} </div>
+
+<form *ngIf="customer" #customerForm="ngForm" (ngSubmit)="editCustomer(customerForm)">
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>firstName</th>
+      <th>lastName</th>
+    </tr>
+    <tr>
+      <td>
+        <input type="number" name="id" [(ngModel)]="customer.id" />
+      </td>
+      <td>
+        <input type="text" name="firstName" [(ngModel)]="customer.firstName"/>
+      </td>
+      <td>
+        <input type="text" name="lastName" [(ngModel)]="customer.lastName" />
+      </td>
+    </tr>
+    <tr>
+      <button type="submit">Add</button>
+    </tr>
+  </table>
+
+</form>

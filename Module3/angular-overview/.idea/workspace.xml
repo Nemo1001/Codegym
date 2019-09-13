@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="120b2d4f-2655-42b2-be32-187d815e591d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Module2/Case_Study/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/internationalize/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/internationalize/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/internationalize/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/internationalize/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/internationalize/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/internationalize/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/internationalize/src/main/java/com/codegym/blog/controller/DashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/internationalize/src/main/java/com/codegym/blog/request/Credential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/internationalize/src/main/resources/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/internationalize/src/main/resources/message_haw.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CV/.idea/CV.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CV/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CV/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CV/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landing Page/.idea/Landing Page.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landing Page/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landing Page/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landing Page/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Layout-Bootstrap/.idea/Layout-Bootstrap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Layout-Bootstrap/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Layout-Bootstrap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Layout-Bootstrap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Layout-Bootstrap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Truyen/.idea/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bien-kieudulieu-TS/.idea/bien-kieudulieu-TS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../control-flow/.idea/control-flow.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fixed header-fixed footer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fixed header-fixed footer/Header -footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gallery-Bootstrap/.idea/gallery-Bootstrap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gallery-Bootstrap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jQueryUI/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jQueryUI/.idea/jQueryUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jQueryUI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jQueryUI/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jQueryUI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jquery-hide-show/.idea/jquery-hide-show.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../object-ts/.idea/object-ts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../promise/.idea/promise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trangDocTruyenNgan/.idea/truyenNgan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/ArrayList/src/com/company/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/Chuyen doi nhiet do/Chuyen doi nhiet do.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/ConvertSpring MVC/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/ConvertSpring MVC/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/MaxArray/MaxArray.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/Resizeable/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/Resizeable/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/Resizeable/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/hinh chu nhat - lop/hinh chu nhat - lop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/javaWebMVC-master/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/point 2d va 3d/point 2d va 3d.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/spring-greeting/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/spring-greeting/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/tim gia tri nho nhat/tim gia tri nho nhat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 2/trienkhailoplist/trienkhailoplist.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module1/week1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1/week1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/src/main/java/com/codegym/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/src/main/java/com/codegym/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/src/main/java/com/codegym/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/src/main/java/com/codegym/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case-Study-Module2/src/main/webapp/WEB-INF/views/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/configuration/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/configuration/ApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/configuration/CustomSuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/configuration/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/configuration/SecurityWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/controller/NoteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/controller/NoteTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/model/Note.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/model/NoteType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/repository/NoteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/repository/NoteTypeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/service/NoteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/service/NoteTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/service/impl/NoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Case_Study_Module2/src/main/java/com/codegym/service/impl/NoteTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/build/libs/Exam-Final-Module2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/build/libs/Exam-Final-Module2-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/src/main/webapp/WEB-INF/views/city/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/src/main/webapp/WEB-INF/views/city/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/src/main/webapp/WEB-INF/views/nation/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/Exam-Final-Module-2/src/main/webapp/WEB-INF/views/nation/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/casestudy-modul2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/casestudy-modul2/.idea/casestudy-modul2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/casestudy-modul2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/casestudy-modul2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/casestudy-modul2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SystemTime/SystemTime.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test/src/test.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="632" />
+    <option name="y" value="-8" />
+    <option name="width" value="657" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="angular-overview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-overview" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular-progress-bar" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="120b2d4f-2655-42b2-be32-187d815e591d" name="Default Changelist" comment="" />
+      <created>1567072907125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567072907125</updated>
+      <workItem from="1567072908862" duration="658000" />
+      <workItem from="1567134870295" duration="473000" />
+      <workItem from="1567136812963" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1210000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

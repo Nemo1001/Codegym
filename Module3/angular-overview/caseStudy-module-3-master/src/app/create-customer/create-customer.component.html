@@ -1,0 +1,18 @@
+<form #customerForm="ngForm" (ngSubmit)="createCustomer(customerForm)">
+  <h4>Create new customer</h4>
+  <hr style="border: 1px solid black"/>
+  <div *ngIf="message"><p style="color: red">{{ message }}</p></div>
+  <div class="form-group">
+    <label>First Name:</label>
+    <input type="text" name="firstName" ngModel class="form-control" style="border: 1px solid black"/>
+  </div>
+  <div>
+    <label>Last Name:</label>
+    <input type="text" class="form-control" name="lastName" ngModel style="border: 1px solid black">
+  </div>
+
+  <div class="text-center">
+    <button type="submit" class="btn btn-success" style="margin-right: 5px"><p>Create</p></button>
+    <button [routerLink]="['/', 'customer-management']" class="btn btn-success"><p>Back</p></button>
+  </div>
+</form>

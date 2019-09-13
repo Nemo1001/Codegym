@@ -1,0 +1,45 @@
+
+header {
+  background: url("https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-mid-autumn-festival-night-lights-background-material-festivalposter-backgroundmid-autumn-banneradvertising-image_55042.jpg");
+}
+.head{
+  bottom: 20px;
+  font-variant: small-caps;
+}
+.head > h1{
+  font-family: Impact;
+  font-size: 40px;
+  color: #4252ff;
+  letter-spacing: 0.3px;
+  text-shadow: 0 0 2px black;
+  padding-bottom: 0px;
+  border-bottom: 1px dotted gray;
+  margin: 15px;
+}
+.head >h5{
+  margin-top: 5px;
+  letter-spacing: 0.5px;
+  color: #68c269;
+}
+a {
+  display: block;
+  font-size: 10px;
+  float: right;
+  margin-top: 80px;
+}
+a:hover{
+  background: #c23616;
+}
+.main {
+  background: #f5f6fa;
+  border: 1px solid black;
+}
+footer{
+  margin-bottom: 20px;
+  height: 100px;
+  background: url("https://img.lovepik.com//back_pic/05/64/84/615b6a4557ef6ae.jpg_wh860.jpg");
+}
+nav {
+  height: 100px;
+  margin: auto;
+}

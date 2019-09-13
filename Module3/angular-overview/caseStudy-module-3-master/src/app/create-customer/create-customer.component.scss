@@ -1,0 +1,24 @@
+form {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+form > h4{
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+label {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.btn.btn-success p {
+  font-style: italic;
+  margin-bottom: 0;
+}
+button:hover {
+  background: #ff4e24;
+}
+
+

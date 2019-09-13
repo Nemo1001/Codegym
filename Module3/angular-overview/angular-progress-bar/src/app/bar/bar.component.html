@@ -1,0 +1,13 @@
+<h2>Progress Bar</h2>
+<div>
+  <label>
+    Enter %:
+    <input type="number" value="%"  (change)="onChange($event.target.value)">
+  </label>
+</div>
+<div class="progress-bar-container" [style.backgroundColor]="backgroundColor">
+  <div class="progress" [ngStyle]="{
+    backgroundColor: progressColor,
+    width: width + '%'
+  }"></div>
+</div>
